@@ -1,5 +1,4 @@
 import * as crypto from 'crypto';
-import saltCompare from "./saltCompare"
 
 export default function(string: string, rounds: number = 10): Promise<string> {
     return new Promise((resolve, reject) => {
