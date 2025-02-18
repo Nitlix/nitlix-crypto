@@ -1,9 +1,17 @@
 {
-  "name": "nitlix-crypto",
-  "version": "1.0.0",
-  "description": "😍 Another starting collection of hashing, salting and other encryption tools 🚀 for the back-end side of the web.",
-  "main": "./dist/exports.js",
-  "keywords": ["cryptography", "crypto", "hash", "salts"],
-  "author": "nitlix",
-  "license": "MIT"
+    "name": "nitlix-crypto",
+    "version": "1.0.1",
+    "description": "😍 Another starting collection of hashing, salting and other encryption tools 🚀 for the back-end side of the web.",
+    "main": "./dist/exports.js",
+    "keywords": [
+        "cryptography",
+        "crypto",
+        "hash",
+        "salts"
+    ],
+    "author": "nitlix",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^22.13.4"
+    }
 }
