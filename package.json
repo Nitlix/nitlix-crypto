@@ -1,6 +1,6 @@
 {
     "name": "nitlix-crypto",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "😍 Another starting collection of hashing, salting and other encryption tools 🚀 for the back-end side of the web.",
     "main": "./dist/exports.js",
     "keywords": [
