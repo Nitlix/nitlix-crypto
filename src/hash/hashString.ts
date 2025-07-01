@@ -1,5 +1,13 @@
-import { HashMethods } from "./hashTypes";
-import crypto from "crypto";
+import crypto from "node:crypto";
+
+export type HashMethods =
+    | "sha256"
+    | "sha512"
+    | "md5"
+    | "sha1"
+    | "sha224"
+    | "sha384"
+    | "ripemd160";
 
 export default function (
     string: string,
